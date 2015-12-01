@@ -1,0 +1,272 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+	font-size: 100%;
+	font-family: Arial, Verdana, sans-serif;
+}
+
+
+body {
+	background-color: #242055;
+}
+#container {
+	margin: 0 auto;
+	width:	80%;
+	background-color: white;
+}
+
+header {
+	/*height: 75px;*/
+	width: 100%;
+	/*border:	1px solid black;*/
+
+}
+
+nav {
+	margin: auto;
+	padding: .5em;
+	display: flex;
+	align-items:	center;
+	flex-wrap:	wrap;
+}
+nav a {
+	text-decoration: none;
+	color: black;
+/*	border:	1px solid #BE1E2D;
+	border-radius: 3px;*/
+	font-size: 1.5em;
+	margin: auto;
+	overflow: auto;
+	padding:	.2em;
+	/*flex-grow:	1;*/
+	flex-basis:	auto;
+
+}
+
+.active, #teampage, #contactuspage, #testimonialspage, #academicplanpage, #athleticplanpage  {
+	/*color: #242055;
+	border-bottom: 2px solid #242055;*/
+	color: white;
+	background-color: #242055;
+
+}
+
+.hover {
+	color: #BE1E2D;
+	border-bottom: 2px solid #BE1E2D;
+}
+.testimonialpage, .teampage {
+	padding: 1em;
+}
+
+#twitter {
+	float: left;
+	width: 33%;
+    margin-left: 2em;
+    margin-top: 4em;
+}
+
+
+.aboutus-main {
+	margin-top: 1em;
+	height: 420px;
+	width: 50%;
+	/*border:	1px solid black;*/
+	float: left;
+}
+
+p {
+	padding-left: 3em;
+	padding-right: 3em;
+}
+
+.clear {
+	clear: both;
+}
+.boxlinks a {
+	margin-left: auto;
+	margin-right: auto;
+	flex-basis:	auto;
+	/*border:	1px solid black;*/
+
+}
+
+.center {
+	margin: auto;
+}
+.boxlinks {
+	display: flex;
+	align-items:	center;
+	flex-wrap:	wrap;
+
+}
+
+#lumetta, #millman, #kaminsky {
+	display: flex;
+	align-items:	center;
+}
+
+blockquote p {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.lumetta {
+	width: 20%;
+	height: 25%;
+	float: left;
+	margin-bottom: 1em;
+}
+
+#millman {
+	clear: left;
+}
+.millman{
+	float: left;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+#kaminsky {
+	clear: left;
+}
+
+.kaminsky {
+	float: left;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	width: 20%;
+}
+
+.staffdiv {
+	float: left;
+	width: 75%;
+}
+
+#trouttestimonial {
+	width: 20%;
+	float: left;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.testimonials {
+	float: left;
+	padding: 1em;
+	width: 70%;
+}
+
+.barbieritestimonial, .trouttestimonial {
+	clear: left;
+	display: flex;
+	align-items: center;
+	/*border-bottom: 1px groove black;*/
+}
+
+#barbieritestimonial {
+	width: 20%;
+}
+
+.floatleft {
+	float: left;
+}
+
+#barbieritestimonial p {
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+h1, h2, h3, h4 {
+	text-align: center;
+}
+
+.athletic-plan {
+	text-align: center;
+}
+
+form {
+  margin: 20px 0 80px;
+}
+
+input {
+  font-size: 16px;
+  border: none;
+  padding: 4px 6px;
+  border: 1px solid #000;
+  width: 50%;
+  color: #121212;
+  outline: none;
+  line-height: 2;
+  margin-top: 1em;
+ }
+
+form ul li {
+	list-style-type: none;
+	display: block;
+	font-size: 16px;
+}
+
+form ul li label {
+	display: inline-block;
+	width: 25%;
+	margin-right: 1em;
+}
+
+form ul li textarea {
+	font-size: 16px;
+  	border: none;
+  	padding: 4px 6px;
+  	border: 1px solid #000;
+  	width: 50%;
+  	color: #121212;
+  	outline: none;
+  	line-height: 2;
+  	margin-top: 1em;
+}
+
+hr {
+	outline: 1px groove;
+}
+.heavy {
+	font-weight: bold;
+}
+
+.footer-links ul a {
+	float: right;
+	list-style-type: none;
+	color: white;
+}
+
+footer li {
+	list-style-type: none;
+}
+
+.academic li {
+	padding: 0 0 1em;
+}
+
+.footer-links {
+	width: 54%;
+	float: right;
+}
+
+.footer-links li {
+	display: inline-block;
+	float: left;
+	margin-right: 10px;
+}
+
+footer {
+	height: 175px;
+	border:	1px solid black;
+	background-color: black;
+	clear: left;
+	margin-top: 2em;
+	padding: 3em;
+	list-style-type: none;
+	text-decoration: white;
+}
