@@ -22,13 +22,11 @@ $(function(){
     //     });
 // });
 
-    $('nav a').hover(function(){
-    	// console.log('link was hovered');
-    	//if 'nav a' has a class of disabled, no not toggle
-    	//class, else toggle class
+   //  $('nav a').hover(function(){
+
 
     	
-			$(this).toggleClass('hover');
+			// $(this).toggleClass('hover');
     	
 
     });
