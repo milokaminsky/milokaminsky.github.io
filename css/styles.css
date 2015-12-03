@@ -79,9 +79,7 @@ nav a:hover {
 
 .aboutus-main {
 	margin-top: 1em;
-	height: 420px;
 	width: 50%;
-	/*border:	1px solid black;*/
 	float: left;
 }
 
@@ -108,7 +106,23 @@ p {
 	display: flex;
 	align-items:	center;
 	flex-wrap:	wrap;
+}
 
+.caption {
+	display: block;
+	color: #242055;
+}
+
+.textdecoration {
+	text-decoration: none;
+}
+
+.links {
+	align-items:	center;
+	flex-wrap:	wrap;
+	margin: auto;
+	display: inline-block;
+	text-align: center;
 }
 
 #lumetta, #millman, #kaminsky {
@@ -229,13 +243,12 @@ form ul li label {
 form ul li textarea {
 	font-size: 1em;
   	border: none;
-  	padding: 4px 6px;
+  	/*padding: 4px 6px;*/
   	border: 1px solid #000;
   	width: 50%;
   	color: #121212;
   	outline: none;
   	line-height: 2;
-  	margin-top: 1em;
 }
 
 #contacteg label.error {
@@ -249,8 +262,12 @@ form ul li textarea {
 	color: red;
 }
 .textareaform {
-	vertical-align: middle;
-	margin-bottom: 2em;
+	vertical-align: top;
+}
+
+.textareamargin {
+	margin-top: 1em;
+	line-height: 2;
 }
 
 .submitbutton {
@@ -318,4 +335,63 @@ footer {
 	padding: 3em;
 	list-style-type: none;
 	text-decoration: white;
+}
+
+@media (max-width: 500px) {
+	
+	#twitter {
+		display: none;
+	}
+
+	.aboutus-main {
+		width: 100%;
+	}
+
+	.social-media {
+		display: inline-block;
+		width: 40%;
+		margin-left: 2em;
+}
+
+	footer {
+		height: 225px;
+}
+
+.submitbutton {
+	border: 1px solid black;
+	border-radius: 5px;
+	background-color: #242055;
+	color: white;
+	margin-left:	38%;
+	width: 20%;
+	margin-top: 0;
+}
+
+.ui-accordion {
+	padding: 1em;
+}
+
+#accordion p {
+	padding: .5em;
+}
+
+#ui-id-2 {
+	padding: 0;
+}
+
+}
+
+@media (max width:	650px) {
+	
+	.ui-accordion {
+		padding: 1em;
+}
+
+	#accordion p {
+		padding: .75em;
+}
+
+	#ui-id-2 {
+		padding: .2em;
+}
 }
