@@ -1,38 +1,37 @@
-$(function(){
+$().ready(function() {
+        // validate the comment form when it is submitted
+        // $("#commentForm").validate();
 
-  
-    // $('nav a').click(function(){
-    //       console.log('link was clicked');
-
-    //         // remove active class from all links
-    // $('nav a').removeClass("active");
-           
-    //         // add active class to the link that was selected
-    // $(this).addClass("active");
-
-    // $('nav a').each(function(){
-    // 	if ($(this).hasClass('disabled'))
-    // 		$(this).removeAttr('href')
-
-    // });
-
-    // $("nav a").each(function(){
-    //     if($(this).hasClass("disabled")){
-    //         $(this).removeAttr("href");
-    //     });
-// });
-
-   //  $('nav a').hover(function(){
-
-
-    	
-			// $(this).toggleClass('hover');
-    	
-
-    });
-
-
-
-
+        // validate signup form on keyup and submit
+        $("#contacteg").validate({
+            rules: {
+                firstname: "required",
+                lastname: "required",
+                
+               
+                email: {
+                    required: true,
+                    email: true
+                },
+                message: {
+                    required: true,
+                    minlength: 2
+                },
+            },
+            messages: {
+               
+                firstname: {
+                    required: "Please enter your First Name",
+                    minlength: "Your first name must be at least 3 characters"
+                },
+                lastname: {
+                    required: "Please enter your Last Name",
+                    minlength: "Your last name must be at least 2 characters"
+                },
+                
+                email: "Please enter a valid email address",
+                message: "Please enter a message",
+            }
+        });
 
 });

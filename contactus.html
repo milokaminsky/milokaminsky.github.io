@@ -16,25 +16,25 @@
 			<a href="team.html">Team</a>
 			<a href="#">Camps</a>
 			<a href="testimonials.html">Testimonials</a>
-			<a id="contactuspage" >Contact Us</a>
+			<a id="contactuspage" class="mainhover" >Contact Us</a>
 		
 		</nav>
 		</header>
-		<form url="#" method="post">
+		<form id="contacteg" action="http://formspree.io/milo.kaminsky@eliteguidance.com" url="#" method="post">
 			<ul>
 				<li>
-					<label for="first-name">First Name:</label>
-					<input type="text" name="name" autocapitalize="sentences" minlength="3" placeholder="John" />
+					<label for="firstname">First Name:<span class=requiredcontact>*</span></label>
+					<input id="firstname" type="text" name="firstname" autocapitalize="sentences" minlength="3" placeholder="John" />
 				</li>
 
 				<li>
-					<label for="last-name">Last Name:</label>
-					<input type="text" name="name" minlength="3"placeholder="Doe" />
+					<label for="lastname">Last Name:<span class=requiredcontact>*</span></label>
+					<input id="lastname" type="text" name="lastname" minlength="2"placeholder="Doe" />
 				</li>
 
 				<li>
-					<label for="email">Email:</label>
-					<input type="text" name="email" placeholder="hello@example.com" />
+					<label for="email">Email:<span class=requiredcontact>*</span></label>
+					<input type="email" name="email" placeholder="hello@example.com" />
 				</li>
 			
 				<li>
@@ -43,11 +43,12 @@
 				</li>
 
 				<li>
-					<label for="message">Message:</label>
+					<label class="textareaform" for="message">Message:<span class=requiredcontact>*</span></label>
 					<textarea name="message" placeholder="Your Comment" /></textarea>
 				</li>
 			</ul>
-
+			<input class="submitbutton" type="submit" value="Submit">
+			<input type="hidden" name="_next" value="index.html" />
 		</form>
 
 		<footer>
@@ -70,6 +71,8 @@
 			
 		</footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="js/jquery.form.js"></script>
+<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.min.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>

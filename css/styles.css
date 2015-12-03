@@ -59,6 +59,12 @@ nav a:hover {
 	border-bottom: 2px solid #BE1E2D;
 }
 
+.mainhover:hover {
+	color: white;
+	background-color: #242055;
+	border-bottom: none;
+}
+
 
 .testimonialpage, .teampage {
 	padding: 1em;
@@ -198,7 +204,7 @@ input {
   border: none;
   padding: 4px 6px;
   border: 1px solid #000;
-  width: 50%;
+  width: 40%;
   color: #121212;
   outline: none;
   line-height: 2;
@@ -227,6 +233,29 @@ form ul li textarea {
   	outline: none;
   	line-height: 2;
   	margin-top: 1em;
+}
+
+#contacteg label.error {
+		margin-left: 10px;
+		width: auto;
+		display: inline;
+		color: red;
+}
+
+.requiredcontact {
+	color: red;
+}
+.textareaform {
+	vertical-align: top;
+}
+
+.submitbutton {
+	border: 1px solid black;
+	border-radius: 5px;
+	background-color: #242055;
+	color: white;
+	margin:	0 auto;
+	width: 20%;
 }
 
 hr {
