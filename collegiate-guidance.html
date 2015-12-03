@@ -1,31 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Athletic Plan</title>
+	<title>Collegiate Guidance</title>
 	<link rel="shortcut icon" type="image/x-icon" href="images/EG-Icon.png" />
-		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
-	<link rel="stylesheet" href="jquery-ui-1.11.4.custom/jquery-ui.css">
-	<link rel="stylesheet" href="jquery-ui-1.11.4.custom/jquery-ui.structure.css">
-	<link rel="stylesheet" href="jquery-ui-1.11.4.custom/jquery-ui.theme.css">
+	
+	
+	
 </head>
 <body>
 	<div id="container">
 		<header>
 		<nav>
 			<img class="nav-logo" src="images/logos-01-185x75.png">
-			<a href="#">Home</a>
-			<a href="#">Collegiate Guidance</a>
-			<a href="#">Team</a>
+			<a href="index.html">Home</a>
+			<a id="collegiateguidancepage" class="mainhover">Collegiate Guidance</a>
+			<a href="team.html">Team</a>
 			<a href="#">Camps</a>
-			<a href="#">Testimonials</a>
-			<a href="#">Contact Us</a>
+			<a href="testimonials.html">Testimonials</a>
+			<a href="contactus.html">Contact Us</a>
 		
 		</nav>
 		</header>
-
+	<h2>The Elite Guidance Plan</h2>
 	<div id="accordion">
-	  <h3>Academic Plan</h3>
+	  <h3 class="collegiateguidance">Academic Plan</h3>
 	  <div>
 	   <p>Our initial meeting will include a comprehensive assessment of the client. We will compile, appraise, and critique a wide range of academic, social and personal interests.</p>
 
@@ -60,7 +61,7 @@
 		<li>Hobbies</li>
 	</ul>
 
-	<h3>Finance</h3>
+	<h3 class="collegiateguidance">Finance</h3>
 	
 	<p>We will work with the client to assist in clarifying their vision of a college match which includes an overarching understanding of academic, environmental and financial needs.</p> 
 
@@ -78,24 +79,24 @@
 	</ul>
 	    </p>
 	  </div>
-	  <h3>Athletic Plan</h3>
+	  <h3 class="collegiateguidance">Athletic Plan</h3>
 	  <div>
-	    <p>
-		    We analyze your tools and skills with one of our professional talent evaluators (including the scout who discovered and signed Mike Trout).
+	    <ul class="academic"><li>
+		    We analyze your tools and skills with one of our professional talent evaluators (including the scout who discovered and signed Mike Trout).</li>
 
-			Provide fair and unbiased analysis of your athletic tools and skills by highly respected industry professionals
+			<li>Provide fair and unbiased analysis of your athletic tools and skills by highly respected industry professionals</li>
 
-			Provide recommendations where you can play in college
+			<li>Provide recommendations where you can play in college</li>
 
-			When your video analysis is complete, we will work with you to determine the athletic level of collegiate placement that we are comfortable contacting and assisting. You must be willing to hear an honest assessment of your current and projected skills. At no point will we misrepresent you to programs we do not feel are the right fit and we will not place our own financial gain above our player evaluation integrity.
+			<li>When your video analysis is complete, we will work with you to determine the athletic level of collegiate placement that we are comfortable contacting and assisting. You must be willing to hear an honest assessment of your current and projected skills. At no point will we misrepresent you to programs we do not feel are the right fit and we will not place our own financial gain above our player evaluation integrity.</li>
 
-			We will assist with the option of providing Collegiate Coaches everything you academically and financially qualify for at their specific school, assisting the coaches and making the decision process easier for everyone involved. You will receive regular updates, copies of communication and any information relevant to the student and family throughout the process. (If applicable)
+			<li>We will assist with the option of providing Collegiate Coaches everything you academically and financially qualify for at their specific school, assisting the coaches and making the decision process easier for everyone involved. You will receive regular updates, copies of communication and any information relevant to the student and family throughout the process. (If applicable)</li>
 
 
-			Note: If you are providing your own video, we will do the best we can but please bear in mind we can only work within the constraints of what you send.
-	    </p>
+			<li>Note: If you are providing your own video, we will do the best we can but please bear in mind we can only work within the constraints of what you send.</li>
+	    </ul>
 	  </div>
-	  <h3>Report</h3>
+	  <h3 class="collegiateguidance">Report</h3>
 	  <div>
 	    <p>
 	    This discussion will help define the client&#39;s college preference with regard to several key factors.
@@ -112,27 +113,18 @@
 			<li>In addition, we will provide suggestions for developing the student resume, enhancing the High School Transcript, assistance in negotiating an equitable financial package, advice on letters of recommendations, availability of outside scholarships, and advice on enhancing the effectiveness of the college tour</li></ul>
 
 	  </div>
-	  <h3>Section 4</h3>
-	  <div>
-	    <p>
-	    Cras dictum. Pellentesque habitant morbi tristique senectus et netus
-	    et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
-	    faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
-	    mauris vel est.
-	    </p>
-	    <p>
-	    Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
-	    Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
-	    inceptos himenaeos.
-	    </p>
-	  </div>
 	</div>
  
 
 		<footer>
+
+			<div class="social-media">
+				<a href="http://www.twitter.com/EliteGuidance"><img id="twitter-footer" src="images/400twitter.png"></a>
+				<a href="http://www.facebook.com/EliteGuidance"><img id="facebook-footer" src="images/facebooklogo.png"></a>
+			</div>
 		<div class="footer-links"><ul>
 			<li><a href="index.html">Home</a></li>
-			<li><a href="#">Collegiate Guidance</a></li>
+			<li><a href="collegiate-guidance.html">Collegiate Guidance</a></li>
 			<li><a href="team.html">Team</a></li>
 			<li><a href="#">Camps</a></li>
 			<li><a href="testimonials.html">Testimonials</a></li>
@@ -143,8 +135,10 @@
 
 			
 		</footer>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>	
-<script src="js/main.js"></script>
-<script src="jquery-ui-1.11.4.custom/jquery-ui.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.min.js"></script>
+    <script src="js/main.js"></script>
+
 </body>
 </html>

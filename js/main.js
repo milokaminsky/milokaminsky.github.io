@@ -34,4 +34,26 @@ $().ready(function() {
             }
         });
 
+  $(function() {
+    $( "#accordion" ).accordion();
+  });
+
+  $( "#accordion" ).accordion({
+  collapsible: true
+});
+
+  $( "#accordion" ).accordion({
+  heightStyle: "content"
+});
+
+var heightStyle = $( "#accordion" ).accordion( "option", "heightStyle" );
+ 
+// Setter
+$( "#accordion" ).accordion( "option", "heightStyle", "content" );
+
+
+
+
+
+
 });
