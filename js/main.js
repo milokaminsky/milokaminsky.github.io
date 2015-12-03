@@ -35,15 +35,13 @@ $().ready(function() {
         $( "#accordion" ).accordion();
     });
 
-    $( "#accordion" ).accordion({
-        collapsible: true
+        $( "#accordion" ).accordion({
+            collapsible: true
     });
 
-    $( "#accordion" ).accordion({
-        heightStyle: "content"
+        $( "#accordion" ).accordion({
+            heightStyle: "content"
 });
-
-
 
 
 });
