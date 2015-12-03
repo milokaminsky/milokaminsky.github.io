@@ -1,8 +1,5 @@
 $().ready(function() {
-        // validate the comment form when it is submitted
-        // $("#commentForm").validate();
-
-        // validate signup form on keyup and submit
+        
         $("#contacteg").validate({
             rules: {
                 firstname: "required",
@@ -34,24 +31,17 @@ $().ready(function() {
             }
         });
 
-  $(function() {
-    $( "#accordion" ).accordion();
-  });
+    $(function() {
+        $( "#accordion" ).accordion();
+    });
 
-  $( "#accordion" ).accordion({
-  collapsible: true
+    $( "#accordion" ).accordion({
+        collapsible: true
+    });
+
+    $( "#accordion" ).accordion({
+        heightStyle: "content"
 });
-
-  $( "#accordion" ).accordion({
-  heightStyle: "content"
-});
-
-var heightStyle = $( "#accordion" ).accordion( "option", "heightStyle" );
- 
-// Setter
-$( "#accordion" ).accordion( "option", "heightStyle", "content" );
-
-
 
 
 
